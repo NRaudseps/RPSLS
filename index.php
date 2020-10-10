@@ -15,7 +15,7 @@ $computerMove = $computer->move();
 $player = new HumanPlayer();
 $playerMove = $player->move($_POST);
 
-//Determine who has won
+//Determine who has won   
 $game = Game::whoWon($computerMove, $playerMove);
 
 //Load the view
